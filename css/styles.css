@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-image: url(../stairs.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.XYZ{ 
+  text-align: center;
+  font-size: 30px;
+  display: 100%;
+  color:rgb(255, 0, 221)
+} 
+
+.abc{
+  height: 50%;
+  text-align: center;
+  font-size: 50%;
+  color:rgb(178, 32, 166)
+    
+}
+.image{
+  height: 300px;
+  width: 300px;
+  margin-left: 525px
+}
+.container{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: auto auto auto;
+    padding: 1vh 2vw;
+}    
+.column1 {
+    width: 30vw;
+    height: 35vh;
+    background-color: rgb(0, 255, 213);
+    font-size: 3vh;
+    font-style: italic;
+    font:larger;
+    color: #292826;
+    padding-left: 1vw; 
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.column2 {
+    width: 30vw;
+    height: 36vh;
+    background-color: rgb(175, 166, 174);
+    font-size: 3vh; 
+    padding-left: 0.5vw; 
+    padding-right: 0.5vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    
+}
+.column3 {
+    width: 30vw;
+    height: 37vh;
+    background-color: rgb(2, 175, 255);  
+    padding-left: 0.5vw; 
+    padding-right: 0.5vw;
+
+}
+
+
+   
+    
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(29, 20, 20);
+    color: rgb(189, 159, 159);
+    text-align: center;
+ }
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white}
+
+
+  
+
