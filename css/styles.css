@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-
-  background-image: url(/img/stairs.jpg);
+  background-image: url(../img/stairs.jpg);
   background-position: center;
   background-size: cover;
   width: 100%; 
@@ -35,7 +34,11 @@ a:active {
   display: 100%;
   color:rgb(255, 0, 221)
 } 
-
+.name input {
+  width: 50%;
+  height: 50%;
+  float: none;
+}
 .abc{
   height: 100%;
   text-align: center;
@@ -78,41 +81,43 @@ a:active {
     padding-right: 0.5vw;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
-    link {
-    display: none;
-    }
-}
+    
+  }
+
 .column3 {
     width: 30vw;
     height: 37vh;
     background-color: rgb(2, 175, 255);  
     padding-left: 0.5vw; 
     padding-right: 0.5vw;
+  }
 
-}
-.audio {
-  position: relative;
-  background-color: rgb(129, 33, 129);
-  center: 100%;
-}
+  .column4 {
+    width: 30vw;
+    height: 37vh;
+    background-color: rgb(2, 175, 255);  
+    padding-left: 0.5vw; 
+    padding-right: 0.5vw;
+  }
 
-   
-    
-.footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(252, 14, 153);
-    color: rgb(189, 159, 159);
-    text-align: center;
+
+   br
+
+footer {
+  width: 20vw;
+  height: 20vh;
+    background-color: rgb(251, 15, 152);
+    color: rgb(190, 160, 160);
+    text-align: left;
+    border: 1px solid black;
+
  }
 
  .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     margin: 5px 2px;
     color: honeydew;
@@ -159,13 +164,13 @@ a:active {
   }
   
   .fa-snapchat-ghost {
-    background: #fffc00;
+    background: orange;
     color: white;
     
   }
   
   .fa-skype {
-    background: #00aff0;
+    background: black;
     color: white;}
 
 
