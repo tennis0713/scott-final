@@ -50,7 +50,7 @@ a:active {
 }
 .image{
   height: 300px;
-  width: 300px;
+  width: 250px;
   margin-left: 525px
 }
 .container{
@@ -85,7 +85,7 @@ a:active {
   }
 
 .column3 {
-    width: 30vw;
+    width: 26vw;
     height: 37vh;
     background-color: rgb(2, 175, 255);  
     padding-left: 0.5vw; 
@@ -114,10 +114,11 @@ footer {
  }
 
  .fa {
+   display: flex-inline; 
     padding: 20px;
     font-size: 30px;
     width: 50px;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     margin: 5px 2px;
     color: honeydew;
@@ -173,6 +174,74 @@ footer {
     background: black;
     color: white;}
 
+  .fa-reddit {
+  background: rgb(220, 243, 12);
+  color: white;
+}
 
+ew*{
+  margin: 0;
+}   
+
+.my_font01{
+  font-family: 'Oleo Script Swash Caps', cursive;}
+
+.my_font02{
+  font-family: 'Irish Grover', cursive;
+}
+
+.my_accordion{
+  margin-bottom: 10rem;
+}
+
+#my_footer{
+  bottom: 0;
+  position: relative;
+}
+
+.my_contact{
+  margin-bottom: 11rem;
+}
+
+.d-block{
+  height: 60vh;
+  width: 60vw;
+}
+
+#my_button:hover{
+  border: 2px darkred;
+  box-shadow: 5px 5px darkred;
+}
+
+#my_input:hover{
+  box-shadow: 5px 5px darkred;
+}
+
+.form-control:focus{
+  border-color: #cccccc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.accordion-button:focus{
+  border-color: #cccccc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* .the_captain{
+  height:20rem;
+  width: 20rem;
+} */
+
+.logo{
+  height: 100px;
+  width: 100px;
+  filter: invert(100%);
+}
+
+.accordion-button::after{
+  visibility: hidden;
+}
   
 
