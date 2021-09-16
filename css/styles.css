@@ -55,9 +55,9 @@ a:active {
 }
 .container{
     display: grid;
-    justify-items: center;
-    grid-template-columns: auto auto auto;
-    padding: 1vh 2vw;
+    justify-items:center;
+    grid-template-columns: auto;
+    padding: 0.7
 }    
 .column1 {
     width: 30vw;
