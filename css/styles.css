@@ -57,7 +57,7 @@ a:active {
     display: grid;
     justify-items:center;
     grid-template-columns: auto;
-    padding: 0.7
+    padding: 0;
 }    
 .column1 {
     width: 30vw;
@@ -103,12 +103,12 @@ a:active {
 
    br
 
-footer {
+.footer {
   width: 20vw;
   height: 20vh;
     background-color: rgb(251, 15, 152);
     color: rgb(190, 160, 160);
-    text-align: left;
+    text-align: center;
     border: 1px solid black;
 
  }
